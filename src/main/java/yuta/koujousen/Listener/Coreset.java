@@ -31,6 +31,7 @@ public class Coreset implements Listener {
                     Location loc = player.getLocation();
                     loc.getWorld().playSound(loc, Sound.BLOCK_NOTE_BLOCK_HARP, 1.0F, 10.0F);
                 });
+                e.setDropItems(false);
                 Koujousen.redcount--;
                 Koujousen.rednumber.setScore(Koujousen.redcount);
             }
@@ -55,6 +56,7 @@ public class Coreset implements Listener {
                     Location loc = player.getLocation();
                     loc.getWorld().playSound(loc, Sound.BLOCK_NOTE_BLOCK_HARP, 1.0F, 10.0F);
                 });
+                e.setDropItems(false);
                 Koujousen.bluecount--;
                 Koujousen.bluenumber.setScore(Koujousen.bluecount);
             }
