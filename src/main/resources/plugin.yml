@@ -1,0 +1,7 @@
+name: Koujousen
+version: '${project.version}'
+main: yuta.koujousen.Koujousen
+api-version: 1.19
+commands:
+  starttimer:
+    aliases: starttimer
